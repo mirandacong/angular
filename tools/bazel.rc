@@ -1,6 +1,7 @@
 ###############################
 # Typescript / Angular / Sass #
 ###############################
+build --jobs=12
 
 # Make compilation fast, by keeping a few copies of the compilers
 # running as daemons, and cache SourceFile AST's to reduce parse time.
@@ -57,6 +58,6 @@ test --experimental_ui
 ################################
 # Temporary Settings for Ivy   #
 ################################
-# to determine if the compiler used should be Ivy or ViewEngine one can use `--define=compile=local` on 
+# to determine if the compiler used should be Ivy or ViewEngine one can use `--define=compile=local` on
 # any bazel target. This is a temporary flag until codebase is permanently switched to Ivy.
 build --define=compile=legacy
