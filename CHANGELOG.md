@@ -1,3 +1,25 @@
+<a name="6.1.6"></a>
+## [6.1.6](https://github.com/angular/angular/compare/6.1.5...6.1.6) (2018-08-29)
+
+
+### Bug Fixes
+
+* **bazel:** Cache fileNameToModuleName lookups ([#25731](https://github.com/angular/angular/issues/25731)) ([3e690e0](https://github.com/angular/angular/commit/3e690e0))
+* **bazel:** only lookup amd module-name tags in .d.ts files ([#25710](https://github.com/angular/angular/issues/25710)) ([7aff364](https://github.com/angular/angular/commit/7aff364))
+
+
+Note: the 1.6.5 release on npm accidentally glitched-out midway, so we cut 6.1.6 instead. sorry! :-)
+
+<a name="6.1.4"></a>
+## [6.1.4](https://github.com/angular/angular/compare/6.1.3...6.1.4) (2018-08-22)
+
+
+### Bug Fixes
+
+* **router:** default scroll position restoration to disabled ([#25586](https://github.com/angular/angular/issues/25586)) ([7e61645](https://github.com/angular/angular/commit/7e61645)), closes [#25145](https://github.com/angular/angular/issues/25145)
+
+
+
 <a name="6.1.3"></a>
 ## [6.1.3](https://github.com/angular/angular/compare/6.1.2...6.1.3) (2018-08-15)
 
