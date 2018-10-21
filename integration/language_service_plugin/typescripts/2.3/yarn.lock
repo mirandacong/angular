@@ -4,4 +4,5 @@
 
 typescript@2.3.0:
   version "2.3.0"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
+  resolved "http://yarn.corp.logiocean.com:4873/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
+  integrity sha1-LmPgkoQ5K8gViiREwz4gk3lcBBg=
