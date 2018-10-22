@@ -6,8 +6,8 @@
   "author": "Angular",
   "license": "MIT",
   "scripts": {
-    "preinstall": "node ../tools/yarn/check-yarn.js",
-    "postinstall": "node tools/cli-patches/patch.js && uglifyjs node_modules/lunr/lunr.js -c -m -o src/assets/js/lunr.min.js --source-map",
+    "//preinstall": "node ../tools/yarn/check-yarn.js",
+    "//postinstall": "node tools/cli-patches/patch.js && uglifyjs node_modules/lunr/lunr.js -c -m -o src/assets/js/lunr.min.js --source-map",
     "aio-use-local": "node tools/ng-packages-installer overwrite . --debug",
     "aio-use-npm": "node tools/ng-packages-installer restore .",
     "aio-check-local": "node tools/ng-packages-installer check .",
